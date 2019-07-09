@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableAutoConfiguration
 public class Test2 {
-	@RequestMapping("/")
+	@RequestMapping("/sayhello")
 	public String sayhello() {
 		return "hello world456!";
 	}
