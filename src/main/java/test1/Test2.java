@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test2 {
 	@RequestMapping("/")
 	public String sayhello() {
-		return "hello world!";
+		return "hello world456!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(Test1.class, args);
